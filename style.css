@@ -6,10 +6,10 @@ html{
 div{
     font-size: large;
     color:aliceblue;
-    padding: 5px;
-    margin: 5px 0;
     align-items: center;
     gap: 0px;
+    text-align: left;
+    padding: 50px;
 
 }
 nav{ text-align: end; 
@@ -67,9 +67,10 @@ body{
 }
 #about{ margin: 0px;
     padding: 0px;
-    text-align: center;
+    text-align: left;
     color: aliceblue;
-    
+    padding: 50px;
+
     
 }
 .about-text{
@@ -79,7 +80,7 @@ body{
 #experiences{
     text-align: center;
     list-style-position: inside;
-    padding: 0;
+    padding: 50px;
     margin: 10px;
     font-size: large;
     color: aliceblue;
@@ -87,7 +88,7 @@ body{
 
 #gallery{
     text-align: center;
-    padding: 40px;
+    padding: 50px;
     color: aliceblue;
 
 }
@@ -126,7 +127,7 @@ body{
 box-shadow: darkorchid;
 }
 
-#contact{text-align: center;
+#contact{text-align: center; padding: 50px;
 
 }
 #contact button {display: inline-block;
