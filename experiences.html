@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Experiences</title>
+    
+    <style>
+        /* ===================================================
+        GLOBAL STYLING (Dark Theme)
+        =================================================== */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #1a1a1a; /* Dark background */
+            color: #e0e0e0; /* Light text */
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            display: flex; /* Added for correct layout with navbar */
+            flex-direction: column; /* Stack content vertically */
+            min-height: 100vh;
+        }
+
+        /* ===================================================
+        NAVBAR STYLING - ADDED STYLES
+        =================================================== */
+        nav {
+            background-color: #2c2c2c;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+            /* Important: The margin-bottom will create space between the navbar and the content */
+            margin-bottom: 40px; 
+        }
+
+        nav a {
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        nav button {
+            background-color: transparent;
+            border: 2px solid #3498db;
+            color: #3498db;
+            padding: 10px 18px;
+            text-transform: uppercase;
+            font-weight: bold;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        nav button:hover {
+            background-color: #3498db;
+            color: #1a1a1a;
+        }
+
+        /* ===================================================
+        EXPERIENCES CONTAINER STYLING
+        =================================================== */
+        #experiences-container {
+            max-width: 1000px;
+            width: 90%;
+            /* Removed top margin since navbar provides spacing */
+            margin: 0 auto 40px auto; 
+            padding: 2rem;
+            background-color: #242424;
+            border-radius: 10px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+            flex-grow: 1; /* Allows container to fill remaining vertical space */
+        }
+
+        h2 {
+            font-size: 2.5rem;
+            text-align: center;
+            margin-bottom: 2.5rem;
+            text-transform: uppercase;
+            color: #3498db;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+        }
+
+        /* ===================================================
+        EXPERIENCE LIST STYLING (Existing styles)
+        =================================================== */
+        .experience-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .experience-list > li {
+            background-color: #2c2c2c;
+            padding: 20px;
+            margin-bottom: 25px;
+            border-left: 5px solid #3498db;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        
+        .experience-list > li:hover {
+            background-color: #383838;
+        }
+
+        .job-title-date {
+            font-weight: bold;
+            font-size: 1.2rem;
+            color: #ffffff;
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        .achievements {
+            list-style: disc;
+            margin: 10px 0 0 20px;
+            padding: 0;
+            color: #cccccc;
+        }
+
+        .achievements li {
+            margin-bottom: 8px;
+            line-height: 1.4;
+        }
+
+        .role-title {
+            color: #e0e0e0;
+            font-weight: 600;
+        }
+        
+        .company-name {
+            color: #3498db;
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="index.html"><button>ABOUT ME</button></a>
+        <a href="skills.html"><button>SKILLS</button></a>
+        <a href="experiences.html"><BUtton>EXPERIENCES</BUtton></a>
+        <a href="gallery.html"><button>GALLERY</button></a>
+        <a href="index.html#contact"><button>CONTACTS</button></a>
+    </nav>
+
+    <section id="experiences-container">
+        <h2>EXPERIENCES</h2>
+        <ul class="experience-list">
+            
+            <li>
+                <span class="job-title-date"><span class="role-title">Web Developer / Project Creator</span> <span class="company-name">Personal Portfolio</span> 2024–Present</span>
+                <ul class="achievements">
+                    <li>Designed and deployed a responsive personal portfolio website from scratch using **HTML and CSS**.</li>
+                    <li>Utilized knowledge of **Python and NiceGUI** to explore and build interactive web applications and proof-of-concepts.</li>
+                    <li>Showcased proficiency in front-end structure, styling, and modern web development best practices.</li>
+                </ul>
+            </li>
+
+            <li>
+                <span class="job-title-date"><span class="role-title">Home Nursing Services</span> 2023–Present</span>
+                <ul class="achievements">
+                    <li>Successfully delivered compassionate in-home nursing care, improving patient comfort and recovery.</li>
+                    <li>Monitored patient health and administered medications with zero reported errors.</li>
+                    <li>Educated patients and families on health management, leading to improved adherence to care plans.</li>
+                </ul>
+            </li>
+            
+            <li>
+                <span class="job-title-date"><span class="role-title">Media Ambassador</span> <span class="company-name">Blanzenode.io</span> June 2025 - August 2025</span>
+                <ul class="achievements">
+                    <li>Spearheaded social media campaigns that boosted community engagement by 30%.</li>
+                    <li>Grew the Blazenode online community, attracting 150+ new signups through targeted content and engagement.</li>
+                    <li>Built a personal developer portfolio with HTML and CSS, showcasing front-end development skills.</li>
+                </ul>
+            </li>
+            
+            <li>
+                <span class="job-title-date"><span class="role-title">Nurse (National Service)</span> <span class="company-name">Ahamadiya Muslim Hospital, Asokore, Ghana</span> 2021 - 2022</span>
+                <ul class="achievements">
+                    <li>Delivered comprehensive patient care, improving patient outcomes and satisfaction.</li>
+                    <li>Assisted in clinical procedures and collaborated with multidisciplinary teams to enhance service delivery.</li>
+                    <li>Provided patient education that strengthened awareness of preventive care and medication adherence.</li>
+                </ul>
+            </li>
+            
+            <li>
+                <span class="job-title-date"><span class="role-title">Educator</span> <span class="company-name">Ashley’s Memorial Academy</span> 2015-2016</span>
+                <ul class="achievements">
+                    <li>Designed and delivered engaging lessons for Basic 4 students, improving academic performance.</li>
+                    <li>Created tailored learning materials that enhanced understanding for students with diverse needs.</li>
+                </ul>
+            </li>
+            
+        </ul>
+    </section>
+
+</body>
+</html>

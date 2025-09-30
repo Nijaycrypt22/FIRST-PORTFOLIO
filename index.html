@@ -7,9 +7,9 @@
 <body>
     <nav>
         <a href="#about"><button>ABOUT ME</button></a>
-        <a href="#skills"><button>SKILLS</button></a>
-        <a href="#experiences"><BUtton>EXPERIENCES</BUtton></a>
-        <a href="#gallery"><button>GALLERY</button></a>
+        <a href="file:///C:/Users/Ajhae/Desktop/FIRST-PORTFOLIO/skills.html"><button>SKILLS</button></a>
+        <a href="file:///C:/Users/Ajhae/Desktop/FIRST-PORTFOLIO/experiences.html"><BUtton>EXPERIENCES</BUtton></a>
+        <a href="file:///C:/Users/Ajhae/Desktop/FIRST-PORTFOLIO/gallery.html"><button>GALLERY</button></a>
         <a href="#contact"><button>CONTACTS</button></a>
     </nav>
    
@@ -37,84 +37,6 @@
 
          </section>
          <br>
-        <section id="skills">
-            <h2>SKILLS</h2>
-            <div class="skills-cards">
-                <div class="card">WEB3 AND BLOCKCHAIN
-                    <br>
-                    <br>
-                    <ul>
-                        <li>Community building and Engagement</li>
-                        <li>Creative Writing and Content Creation</li>
-                        <li> Project Ambassadorship</li>
-                    </ul>
-                </div>
-            
-                <div class="card">WEB DEVELOPMENT
-                    <br>
-                    <br>
-                    <ul>
-                       <li> HTML5, CSS3, Javascript</li>
-                       <li>Responsive Design and Accessibility</li>
-                       <li>Git and Git Version Control</li>
-                       <li>Website Development</li>
-                    </ul>
-
-                 </div>
-
-                <div class="card">OTHER SKILLS
-                    <br>
-                    <br>
-                    <ul>
-                        <li>Python (Beginner)</li>
-                        <li> Social Media Management</li>
-                        <li>Content Writing and technical threads </li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-        <section id="experiences">
-            <h2>EXPERIENCES</h2>
-             <ul>
-                <li>Built and developed portfolio using html and css</li>
-                <br>
-               <li>Clinical practice as a nurse developing strong problem solving
-                    and communication skills.</li>
-                    <br>
-                <li>Experince in patient care, team work and resilience with skills now applied to
-                     tech and web development</li>
-                <br>
-                <li>Web3 content creation writing educational and engaging blogs about
-                     blockchain, crypto and Ai</li>
-                 <br>
-                 <li>
-                     Beginner web developer,building small projects with HTML, CSS , Javascript and python.
-                </li>
-                </ul>
-            </section>
-    </section>
-    <section>
-        <section id="gallery">
-            <h2>GALLERY</h2>
-            <div class="projects-card">
-                <a href="https://github.com/Nijaycrypt22/atm_simulator.git" target="_blank" class="projects">
-
-                    <img src="images/project1.png" alt="atm_simulator", width="300px", height="300px">
-                    <h3>
-                        AN ATM SIMULATOR APP
-                    </h3>
-                </a>
-                
-                <a href="https://github.com/Nijaycrypt22/game.git" target="_blank" class="projects"> 
-                    <img src="images/project2.png" alt="text based game" width="300px", height="300px">
-                    <h3> Text based game</h3>
-                </a>
-                <a href="https://github.com/Nijaycrypt22/task_manager.git" target="_blank" class="projects">
-                    <img src="images/placeholder.png" alt="placeholder" width="300px", height="300px">
-                    <h3> ANOTHER PROJECT</h3>
-
-                </a>
-
 
             </div>
 
@@ -122,14 +44,102 @@
     </section>
     <br>
     <section>
-     <div id="contact">
-        <h3> FOR COLLABORATION AND FEEDBACK</h3>
-           <P>CONTACT ME</P>
-           <a href="mailto:ayehanita@gmail.com" target="_blank"><button>EMAIL</button></a>
-           <a href="https://x.com/Nanijay143" target="_blank"><button>TWITTER(X)</button></a>
-           <a href="https://docs.google.com/document/d/1EMYEWXvdevl0i3vkq0X_7qh8T7WYrYsmGTtJdJRVdYo/edit?usp=drive_link" target="_blank"><button>DOWNLOAD CV</button></a>
+     <style>
 
-     </div>
+        
+        
+        #contact { 
+            background-color: #242424; /* Darker background for the box */
+            padding: 10px 30px;
+            border-radius: 10px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+            text-align: center;
+            max-width: 300px;
+            width: 80%;
+            margin: 80px auto; /* Centers the block horizontally and adds vertical space */
+        }
+
+        #contact h3 {
+            font-size: 1.2rem;
+            color: #ffffff;
+            margin-bottom: 5px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        #contact p {
+            font-size: 1.2rem;
+            color: #3498db; /* Blue accent for the call to action */
+            margin-top: 0;
+            margin-bottom: 30px;
+            font-weight: 300;
+        }
+
+        /* Container for the buttons (Anchor tags) */
+        #contact {
+            /* We use flexbox inside the container to stack the buttons */
+            display: flex;
+            flex-direction: column; 
+            align-items: center; /* Center the items inside the div */
+            gap: 15px; /* Space between buttons */
+        }
+        
+        #contact a {
+            text-decoration: none;
+            width: 100%; /* Make the link take full width */
+            max-width: 300px; /* Limit button width */
+        }
+        
+        /* Styling the button element */
+        #contact button {
+            width: 100%;
+            padding: 15px;
+            font-size: 1rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            border: 2px solid #3498db;
+            color: #ffffff;
+            background-color: #3498db; /* Solid blue button */
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            letter-spacing: 1px;
+        }
+
+        #contact button:hover {
+            background-color: #2980b9; /* Darker blue on hover */
+            border-color: #2980b9;
+            transform: translateY(-2px); /* Slight lift on hover */
+        }
+
+        /* Special style for the CV button (the third 'a' link) */
+        #contact a:nth-child(4) button {
+            background-color: transparent; /* No fill */
+            color: #3498db; /* Blue border and text */
+        }
+
+        #contact a:nth-child(4) button:hover {
+            background-color: #3498db; /* Blue fill on hover */
+            color: #1a1a1a;
+        }
+
+        /* Media query for smaller screens */
+        @media (max-width: 300px) {
+            #contact {
+                padding: 30px;
+                margin: 20px auto;
+            }
+        }
+</style>
+
+<div id="contact">
+    <h3> FOR COLLABORATION AND FEEDBACK</h3>
+    <p>CONTACT ME</p>
+    
+    <a href="mailto:ayehanita@gmail.com" target="_blank"><button>EMAIL</button></a>
+    <a href="https://x.com/Nanijay143" target="_blank"><button>TWITTER(X)</button></a>
+    <a href="https://docs.google.com/document/d/1wH2RjnzHjVTUy0r4DbV_j9Bb1ZFQaCLsDL6Vhz-Ijb8/edit?usp=sharing" target="_blank"><button>DOWNLOAD CV</button></a>
+</div>
     </section>
     
 </body>

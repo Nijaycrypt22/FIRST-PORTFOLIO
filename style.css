@@ -12,11 +12,37 @@ div{
     padding: 50px;
 
 }
-nav{ text-align: end; 
-    font-weight: bold;}
-nav :hover{ color: #7a0640;
-    background: #d39fb9;
-}
+nav {
+            background-color: #2c2c2c; /* Navbar background, matching card color */
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: center; /* Center the buttons */
+            width: 100%;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+        }
+
+        nav a {
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        nav button {
+            background-color: transparent;
+            border: 2px solid #3498db; /* Blue border */
+            color: #3498db; /* Blue text */
+            padding: 10px 18px;
+            text-transform: uppercase;
+            font-weight: bold;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        nav button:hover {
+            background-color: #3498db; /* Solid blue background on hover */
+            color: #1a1a1a; /* Dark text on hover */
+        }
+
 img{float: right;
     margin: 30px 0;
     border-radius: 5%;
